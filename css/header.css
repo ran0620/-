@@ -1,0 +1,190 @@
+/* top */
+#top{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+.top{
+    height: 30px;
+    margin: 0 auto;
+}
+/* top-left */
+.top-left>li{
+    float: left;
+    color: #666;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.top-left .collection>a{
+    padding-left: 20px;
+    background: url(../images/star.png) no-repeat;
+}
+.top-left .collection>a:hover{
+    background: url(../images/star-hover.png) no-repeat;
+}
+.top-left .register>a{
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+/* top-right */
+.top-right>li{
+    float: left;
+    color: #666;
+    font-size: 12px;
+    /* height: 30px; */
+    line-height: 30px;
+    position: relative;
+}
+.top-right>li>a{
+    padding:0 20px 0 20px;
+    border-right: 1px solid #ccc;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #666;
+    position: absolute;
+    top: 13px;
+    right: 8px;
+}
+/* cover */
+.cover{
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+    padding:0 20px;
+    line-height: 30px;
+    color: #2BB8AA;
+    cursor: pointer;
+    display: none;
+}
+.triangleTop{
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-bottom-color: #666;
+    position: absolute;
+    top: 9px;
+    right: 8px;
+}
+.cover-list{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    border: 1px solid #ccc;
+    min-width: 100px;
+    background-color: #fff;
+    display: none;
+}
+.top-right .cover-list>ul{
+    padding:18px;
+}
+.cover-list>ul>li{
+    white-space: nowrap;
+}
+.top-right>li:hover .cover,.top-right>li:hover .cover-list{
+    display: block;
+}
+
+/* logo */
+.logo{
+    height: 83px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+/* 左侧 */
+.logoLeft>h1{
+   float: left;
+}
+.logoLeft>ul{
+    float: left;
+    position: relative;
+    padding-left: 10px;
+}
+.logoLeft>ul>.city{
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+}
+.logoLeft .citySwitch{
+    border:1px solid #ccc;
+    margin-top: 5px;
+    padding: 5px;
+}
+/* 中间 */
+.search{
+    margin-left: 180px;
+}
+.search .searchTop{
+    width: 486px;
+    height: 38px;
+    border: 2px solid #2db8ad;
+    overflow: hidden;
+}
+.search .searchTop>button{
+    float: left;
+}
+.search .searchTop>input{
+    float: left;
+    height: 100%;
+    width: 352px;
+    padding-left: 5px;
+    outline: none;
+    border: 0;
+}
+.tuangou{
+    height: 100%;
+    border: 0;
+    outline: 0;
+    border-right: 1px solid #ccc;
+    background: #fff;
+    padding-left: 14px;
+    padding-right: 22px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+.tuangou>i{
+    top: 16px;
+}
+.searchTop .sousuo{
+    width: 64px;
+    height: 100%;
+    float: right;
+    background-color: #2bb8aa;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+}
+.searchDown{
+    padding-top: 14px;
+}
+.searchDown>a{
+    margin-right: 20px;
+}
+/* 右侧 */
+.tui{
+    position: relative;
+
+}
+.tui li{
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+}
+.tui li a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
