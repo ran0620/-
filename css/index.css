@@ -37,6 +37,7 @@
 }
 .recommendShow{
     margin-top: 8px;
+    border-bottom: 1px solid #eee;
 }
 .recommendShow .recommendPic li{
     border-bottom: 1px solid #eee;
@@ -50,18 +51,13 @@
 .recommendShow .recommendShow-line{
     width:1px;
      background: #eee; 
-     height:318px;
      margin-left: 13px;
 }
 .recommendShow .recommendShow-right{
     position: relative;
-    height: 318px;
-    border-bottom: 1px solid #eee;
 }
 .recommendShow .recommendShow-left{
     position: relative;
-    height: 318px;
-    border-bottom: 1px solid #eee;
 }
 .recommendShow .price{
     float: right;
