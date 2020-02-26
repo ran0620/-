@@ -39,7 +39,7 @@
 .clear {clear: both;}
 
 /*页面宽度*/
-.w1170 {width:1170px;}
+.w1170 {width:1170px;margin: 0 auto;}
 .w980 {width:980px;}
 
 
