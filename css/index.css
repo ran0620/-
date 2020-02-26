@@ -37,9 +37,8 @@
 }
 .recommendShow{
     margin-top: 8px;
-    border-bottom: 1px solid #eee;
-}
-.recommendShow .recommendPic li{
+    height: 316px;
+    overflow: hidden;
     border-bottom: 1px solid #eee;
 }
 .recommendShow .recommendPic li h4{
@@ -48,16 +47,16 @@
 .recommendShow .recommendPic li p{
     margin-top: 10px;
 }
-.recommendShow .recommendShow-line{
-    width:1px;
-     background: #eee; 
-     margin-left: 13px;
-}
+
 .recommendShow .recommendShow-right{
     position: relative;
+    height: 316px;
 }
 .recommendShow .recommendShow-left{
     position: relative;
+    height: 316px;
+    padding-right: 13px;
+    border-right: 1px solid #eee;
 }
 .recommendShow .price{
     float: right;
@@ -88,7 +87,7 @@
 }
 .recommend-right{
     width: 198px;
-    height: 480px;
+    /* height: 370px; */
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
 }
