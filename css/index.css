@@ -54,10 +54,14 @@
      margin-left: 13px;
 }
 .recommendShow .recommendShow-right{
-    position: relative;border-bottom: 1px solid #eee;
+    position: relative;
+    height: 318px;
+    border-bottom: 1px solid #eee;
 }
 .recommendShow .recommendShow-left{
-    position: relative;border-bottom: 1px solid #eee;
+    position: relative;
+    height: 318px;
+    border-bottom: 1px solid #eee;
 }
 .recommendShow .price{
     float: right;
