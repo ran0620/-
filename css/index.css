@@ -1,3 +1,4 @@
+
 #recommend{
     height: 480px;
 }
@@ -65,7 +66,7 @@
     font-weight: bold;
     position: absolute; 
     right:11px; 
-    bottom:2px; 
+    bottom:30px; 
 }
 .recommendShow .arrowLeft{
     position: absolute;
@@ -93,4 +94,593 @@
 }
 .recommend-right div{
     border-bottom: 1px solid #eee;
+}
+/* 美食 */
+.goodFood .goodFood-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.goodFood .goodFood-top img{
+     float: left;
+}
+.goodFood .goodFood-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.goodFood .goodFood-top .foodTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.goodFood .food{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.goodFood .food ul .foodMod{
+    float: left;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.goodFood .food ul .foodMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.goodFood .food ul .foodMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.goodFood .food ul .foodLast{
+    border-right: 0;
+}
+.goodFood .food ul .foodMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+
+.goodFood .food ul .foodMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.goodFood .food ul .foodMod .price .fr{
+    margin-top: 5px;
+}
+.goodFood .food ul .foodMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.goodFood .food ul .foodMod .pingjia span{
+    margin-left: 5px;
+}
+.goodFood .goodFood-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.goodFood .goodFood-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 休闲娱乐 */
+.restPlay .restPlay-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.restPlay .restPlay-top img{
+     float: left;
+}
+.restPlay .restPlay-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.restPlay .restPlay-top .playTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.restPlay .play{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.restPlay .play ul .playMod{
+    float: left;
+    width: 260px;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.restPlay .play ul .playMod a img{
+    width: 100%;
+    height: 100%;
+}
+.restPlay .play ul .playMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.restPlay .play ul .playMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.restPlay .play ul .playLast{
+    border-right: 0;
+}
+.restPlay .play ul .playMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+
+.restPlay .play ul .playMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.restPlay .play ul .playMod .price .fr{
+    margin-top: 5px;
+}
+.restPlay .play ul .playMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.restPlay .play ul .playMod .pingjia span{
+    margin-left: 5px;
+}
+.restPlay .play-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.restPlay .play-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 猫眼电影 */
+.maoMovie .maoMovie-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.maoMovie .maoMovie-top img{
+     float: left;
+}
+.maoMovie .maoMovie-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.maoMovie .maoMovie-top .movieTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.maoMovie .movie{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.maoMovie .movie ul .movieMod{
+    float: left;
+    width: 260px;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.maoMovie .movie ul .movieMod a img{
+    width: 100%;
+    height: 100%;
+}
+.maoMovie .movie ul .movieMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.maoMovie .movie ul .movieMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.maoMovie .movie ul .movieLast{
+    border-right: 0;
+}
+.maoMovie .movie ul .movieMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+
+.maoMovie .movie ul .movieMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.maoMovie .movie ul .movieMod .price .fr{
+    margin-top: 5px;
+}
+.maoMovie .movie ul .movieMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.maoMovie .movie ul .movieMod .pingjia span{
+    margin-left: 5px;
+}
+.maoMovie .movie-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.maoMovie .movie-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 酒店 */
+.mHotel .mHotel-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.mHotel .mHotel-top img{
+     float: left;
+}
+.mHotel .mHotel-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.mHotel .mHotel-top .hotelTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.mHotel .hotel{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.mHotel .hotel ul .hotelMod{
+    float: left;
+    width: 260px;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.mHotel .hotel ul .hotelMod a img{
+    width: 100%;
+    height: 100%;
+}
+.mHotel .hotel ul .hotelMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.mHotel .hotel ul .hotelMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.mHotel .hotel ul .hotelLast{
+    border-right: 0;
+}
+.mHotel .hotel ul .hotelMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+.mHotel .hotel ul .hotelMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.mHotel .hotel ul .hotelMod .price .fr{
+    margin-top: 5px;
+}
+.mHotel .hotel ul .hotelMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.mHotel .hotel ul .hotelMod .pingjia span{
+    margin-left: 5px;
+}
+.mHotel .hotel-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.mHotel .hotel-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 生活服务 */
+.lifeService .lifeService-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.lifeService .lifeService-top img{
+     float: left;
+}
+.lifeService .lifeService-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.lifeService .lifeService-top .serviceTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.lifeService .service{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.lifeService .service ul .serviceMod{
+    float: left;
+    width: 260px;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.lifeService .service ul .serviceMod a img{
+    width: 100%;
+    height: 100%;
+}
+.lifeService .service ul .serviceMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.lifeService .service ul .serviceMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.lifeService .service ul .serviceLast{
+    border-right: 0;
+}
+.lifeService .service ul .serviceMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+.lifeService .service ul .serviceMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.lifeService .service ul .serviceMod .price .fr{
+    margin-top: 5px;
+}
+.lifeService .service ul .serviceMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.lifeService .service ul .serviceMod .pingjia span{
+    margin-left: 5px;
+}
+.lifeService .service-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.lifeService .service-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 丽人 */
+.beautifulGirl .beautifulGirl-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.beautifulGirl .beautifulGirl-top img{
+     float: left;
+}
+.beautifulGirl .beautifulGirl-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.beautifulGirl .beautifulGirl-top .beautifulTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.beautifulGirl .beautiful{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.beautifulGirl .beautiful ul .beautifulMod{
+    float: left;
+    width: 260px;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.beautifulGirl .beautiful ul .beautifulMod a img{
+    width: 100%;
+    height: 100%;
+}
+.beautifulGirl .beautiful ul .beautifulMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.beautifulGirl .beautiful ul .beautifulMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.beautifulGirl .beautiful ul .beautifulLast{
+    border-right: 0;
+}
+.beautifulGirl .beautiful ul .beautifulMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+.beautifulGirl .beautiful ul .beautifulMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.beautifulGirl .beautiful ul .beautifulMod .price .fr{
+    margin-top: 5px;
+}
+.beautifulGirl .beautiful ul .beautifulMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.beautifulGirl .beautiful ul .beautifulMod .pingjia span{
+    margin-left: 5px;
+}
+.beautifulGirl .beautiful-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.beautifulGirl .beautiful-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 旅游 */
+.mTravel .mTravel-top{
+    height: 35px;
+    margin-top: 30px;
+}
+.mTravel .mTravel-top img{
+     float: left;
+}
+.mTravel .mTravel-top h1{
+    float: left;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.mTravel .mTravel-top .travelTop-right li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 8px;
+    border-right: 1px solid #eee;
+}
+.mTravel .travel{
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+.mTravel .travel ul .travelMod{
+    float: left;
+    width: 260px;
+    padding: 10px 16px 0 15px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.mTravel .travel ul .travelMod a img{
+    width: 100%;
+    height: 100%;
+}
+.mTravel .travel ul .travelMod h4{
+    padding-top: 18px;
+    font-weight: bold;
+}
+.mTravel .travel ul .travelMod p{
+    padding-top: 10px;
+    color: #999;
+}
+.mTravel .travel ul .travelLast{
+    border-right: 0;
+}
+.mTravel .travel ul .travelMod b{
+    color: #f76120;
+    font-size: 20px;
+}
+.mTravel .travel ul .travelMod .price{
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+.mTravel .travel ul .travelMod .price .fr{
+    margin-top: 5px;
+}
+.mTravel .travel ul .travelMod .pingjia{
+    padding-top: 13px;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+.mTravel .travel ul .travelMod .pingjia span{
+    margin-left: 5px;
+}
+.mTravel .travel-end{
+    height: 46px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.mTravel .travel-end a{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 侧边导航 */
+.sideNav{
+    position: fixed;
+    top: 35px;
+    left: 15px;
+    border: 1px solid #eee;
+    border-bottom: 0;
+    color: #666;
+    z-index: 666;
+}
+.sideNav li{
+    border-bottom: 1px solid #eee;
+    width: 40px;
+    cursor: pointer;
+}
+.sideNav li i{
+    display: block;
+    background: url("../images/nav3-gray.png") no-repeat; height: 35px;;
+}
+.sideNav li p{
+    text-align: center;
+    padding: 3px 5px 8px;
+    line-height: 18px;
+}
+.sideNav li.active,.sideNav li:hover{
+    background: #2BB8AA;
+    color: #fff;
+}
+.sideNav li.active i, .sideNav li:hover i{
+    background-image: url("../images/nav1-white.png");
 }

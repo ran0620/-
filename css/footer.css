@@ -1,0 +1,114 @@
+.footer{
+    overflow: hidden;
+}
+.footer .footer-top .footerTop-up{
+    margin-top: 40px;   
+}
+.footer .footer-top .footerTop-up ul{
+    width: 918px;
+    border-top: 1px solid #eee;
+ 
+}
+.footer .footer-top .footerTop-up li{
+    float: left;
+    width: 90px;
+    height: 24px;
+    padding: 0 20px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-left: 1px solid #eee;
+}
+.footer .footer-top .footerTop-up li:hover{
+    background-color: #eee;
+}
+.footer .footer-top .footerTop-up .footerTopLast{
+    border-right: 1px solid #eee;
+}
+.footer .footerCover-list{
+    height: 40px;
+    border: 1px solid #eee;
+    margin-top: 24px;
+}
+.footer .footerCover-list li{
+    float: left;
+    padding: 0 25px;
+    line-height: 40px;
+}
+.footer .footer-top .footer-line{
+    margin-top: 18px;
+    width: 1170px;
+    background-color: #eee;
+    height: 1px;
+}
+
+/* footercenter左侧 */
+.footer-center{
+    height: 300px;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    position: relative;
+}
+.footer-center .footerCenter-left{
+    width: 864px;
+
+}
+.footer-center .footerCenter-left dl{
+    float: left;
+    margin-top: 23px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.footer-center .footerCenter-left .first{
+    padding-left: 10px;
+}
+.footer-center .footerCenter-left .last{
+    border-right: 1px solid #eee;
+}
+.footer-center .footerCenter-left dt{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.footer-center .footerCenter-left dd{
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+}
+/* footerCenter 右侧 */
+.footerCenter-right{
+    position: absolute;
+    top: 0;
+    right: 175px;
+}
+.footerCenter-right img{
+    margin-top: 18px;
+}
+.footerCenter-right .kefu{
+    font: 16px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footerCenter-right .phone strong{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.footerCenter-right .footerCenterRight-down{
+    margin-top: 35px;
+}
+.footerCenter-right .footerCenterRight-down .jiaocheng{
+    margin-top: 8px;
+    color: #2bb8aa;
+}
+/* footerDown */
+.footer-down{
+    height: 45px;
+    background-color: #f9f9f9;
+}
+.footer-down p{
+    text-align: center;
+    line-height: 42px;
+}
